@@ -1,0 +1,142 @@
+/*
+Import Fonts
+font-family: 'Calligraffitti', cursive;
+font-family: 'IM Fell Great Primer', serif;
+font-family: 'Allan', cursive;
+
+font-family: 'Cedarville Cursive', cursive;
+font-family: 'Euphoria Script', cursive;
+font-family: 'Kaushan Script', cursive;
+
+Logo Color:  color: #445976;
+*/
+@import url('https://fonts.googleapis.com/css?family=Allan|Calligraffitti|IM+Fell+Great+Primer:400i');
+@import url('https://fonts.googleapis.com/css?family=Cedarville+Cursive|Euphoria+Script|Kaushan+Script');
+
+/*Custom classes used for testing purposes*/
+.red-border {
+    border-style: solid;
+    border-color: red;
+}
+
+.blue-border {
+    border-style: solid;
+    border-color: blue;
+}
+
+/*css shared across multiple html files, design elements notavailable in bootstrap*/
+
+/*Button Colors to match branding */
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #fff;
+}
+
+.email {
+    text-decoration: none;
+    color: #0A8DC2;
+}
+
+.email:visited {
+    text-decoration: none;
+    color: #0A8DC2;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #0b9fdb;
+    border-color: #0b9fdb;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #445976;
+    border-color: #445976;
+}
+
+.typewriter h1 {
+    font-family: 'Kaushan Script', cursive;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    white-space: nowrap; /* Keeps the content on a single line */
+    animation: 
+      typing 20s steps(500, end),
+      blinking-cursor .5s step-end infinite;
+  }
+
+  .container-top {
+    border-bottom: solid;
+    border-color: #1F2936;
+    background-color: white;
+}
+
+.container-bottom {
+    border-top: solid;
+    border-color: #1F2936;
+    background-color: white;
+}
+
+footer {
+    font-size: .75rem;
+}
+
+/*setting custom height of nav bar for small & extra small screens by adjusting the logo size*/
+@media (min-width: 0px) {
+    #logo {
+    height: 60px;
+    width: 60px;
+    } 
+}
+
+
+/*setting custom height of nav bar for all screens larger than small by adjusting the logo size
+    Height of nav bar is by design and suppose to "cut off" top of logo
+*/
+   @media (min-width: 768px) {
+    .navbar {
+        height:55px;
+    }
+    #logo {
+    height: 120px;
+    width: 120px;
+    } 
+   }
+
+
+
+ body, .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    /*font-family: 'IM Fell Great Primer', serif !important;*/
+    color: #1F2936;
+}
+
+
+ #brand {
+     /*font-family: 'IM Fell Great Primer', serif !important;*/
+    color: #1F2936;
+    font-size: 1.3rem;
+    text-decoration: none;
+    background-color: inherit;
+}
+
+ .nav,
+ .nav-item,
+ .nav-link,
+ .navbar-light {
+     color: #1F2936;
+     font-size: 1.0rem;
+     text-decoration: none;
+     background-color: inherit;
+ }
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: rgba(31, 41, 54, 0.9);
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(31, 41, 54, 0.5);
+}

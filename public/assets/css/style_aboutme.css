@@ -1,0 +1,8 @@
+/*Custom css needed to overwrite Bootstrap css, specific to the 'About Me' section of index.html'*/
+#aboutImg {
+    width: 200px; /* Not setting height so that image will stay porportional to original*/
+}
+
+.img-responsive { 
+    width:100%;
+}

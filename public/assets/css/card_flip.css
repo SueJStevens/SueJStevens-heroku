@@ -1,0 +1,99 @@
+/* Opacity of Images */
+.work {
+  opacity:.4;
+  height: 100%;
+}
+
+/* Typewriter Effects */
+.typewriter .splash-titles {
+  font-family: 'Kaushan Script', cursive;
+  color: #445976;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  white-space: nowrap; /* Keeps the content on a single line */
+  animation: 
+    typing 5s steps(500, end),
+    blinking-cursor .5s step-end infinite;
+}  
+
+.typewriter .splash-titles {
+  font-family: 'Kaushan Script', cursive;
+  color: #35465C;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  white-space: nowrap; /* Keeps the content on a single line */
+  animation: 
+    typing 3s steps(500, end),
+    blinking-cursor .5s step-end infinite;
+  animation-fill-mode: both;
+  }  
+
+.typewriter .splash-titles1 {
+  font-family: 'Kaushan Script', cursive;
+  color: #35465C;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  white-space: nowrap; /* Keeps the content on a single line */
+  animation: 
+    typing 3s steps(500, end),
+    blinking-cursor .5s step-end infinite;
+  animation-delay: 3s;
+  animation-fill-mode: both;
+}  
+
+.typewriter .splash-titles2 {
+  font-family: 'Kaushan Script', cursive;
+  color: #445976;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  white-space: nowrap; /* Keeps the content on a single line */
+  animation: 
+    typing 3s steps(500, end),
+    blinking-cursor .5s step-end infinite;
+  animation-delay: 5s;
+  animation-fill-mode: both;
+}    
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+
+  
+  /* Flip Cards CSS */
+ 
+  .card-flip {
+    position: relative;
+    height: 100%;
+    transform-style: preserve-3d;
+    height: auto;
+    max-height: 600px;
+    transition: all 0.5s ease-out;
+    background: white;
+    /*border: none;*/
+  }
+  
+  .card-flip div {
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+    /*height: 100%;*/
+    width: 100%;
+    /*border: none;*/
+  }
+  
+  .card-flip .front {
+    position: relative;
+    z-index: 1;
+  }
+  
+  .card-flip .back {
+    position: relative;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 0;
+    transform: rotateY(-180deg);
+  }
+  
+  .card-container:hover .card-flip {
+    transform: rotateY(180deg);
+  }
+  
