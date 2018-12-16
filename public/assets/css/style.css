@@ -85,6 +85,39 @@ footer {
     font-size: .75rem;
 }
 
+
+/* Error 404 page style
+-------------------------------------------------- */
+#jumbotron_img {
+    border-bottom: solid;
+    border-color: #1F2936;
+    background: #fff url("/assets/images/4-computer-cat.jpg") no-repeat center center fixed;
+    background-size: 100% 100%;
+    height: 100%;
+    opacity: 100%;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+  }
+
+  #jumbotron_img1 {
+    border-bottom: solid;
+    border-color: #1F2936;
+    background: #fff url("/assets/images/work-in-progress.jpg") no-repeat center center;
+    background-size: 100% 100%;
+    height: 100%;
+    opacity: 100%;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+  }
+
+  .errorpage {
+    font-family: 'Abel';
+  }
+
 /*setting custom height of nav bar for small & extra small screens by adjusting the logo size*/
 @media (min-width: 0px) {
     #logo {
@@ -139,4 +172,12 @@ footer {
 
 .navbar-light .navbar-nav .nav-link {
     color: rgba(31, 41, 54, 0.5);
+}
+
+.portfolio-title {
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+.portfolio-link {
+    font-weight: 300;
 }

@@ -1,123 +1,60 @@
-  <main role="main">  
-              
-    <!--Custom class to animate h1 heading throughout the portfolio-->
-    <div class="col-sm-12 mt-3 typewriter">
-        <h1>Portfolio</h1>
-        <hr>        
-    </div>
+<main role="main">
 
-      <!--Begin album content 
+  <!--Custom class to animate h1 heading throughout the portfolio-->
+  <div class="col-sm-12 mt-3 typewriter">
+    <h1>Portfolio</h1>
+    <hr>
+  </div>
+
+  <!--Begin album content 
         Note Bootstrap documentation allows for column wrapping.  See this link:  https://getbootstrap.com/docs/4.0/layout/grid/#auto-layout-columns
         If more than 12 columns are placed within a single row, each group of extra columns will, as one unit, wrap onto a new line.
         ***By Design, to make it easy to add content from a database in the future, I am choosing one row which will wrap all cards in the album when they exceed 12 columns***
       -->
-    
-      <div class="album py-5 bg-light">
-        <div class="container">
-          <div class="row">
-          <!--1st card-->
-          <div class="col-lg-4 col-md-6 col-xs-12">
-            <div class="card mb-4 shadow-sm">
-              <img class="img-fluid card-img-top portfolio-thumbs" src="assets/images/drew-farwell-481107-unsplash.jpg" alt="Train Time Scheduler">
-              <span class="caption">Photo by Drew Farwell on Unsplash.</span>
-              <div class="card-body">
-                <div class="d-flex justify-content-between align-items-center">
-                  <button type="button" class="btn btn-block btn-outline-secondary"><a class="nav-link py-0" href="https://suejstevens.github.io/TrainTime/" target="_blank">Train Time Scheduler</a></button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!--1st card-->
-          <div class="col-lg-4 col-md-6 col-xs-12">
-            <div class="card mb-4 shadow-sm">
-              <img class="img-fluid card-img-top portfolio-thumbs" src="assets/images/joshua-rawson-harris-1066897-unsplash.jpg" alt="GifTastic">
-              <span class="caption">Photo by Joshua Rawson-Harris on Unsplash.</span>
-              <div class="card-body">
-                <div class="d-flex justify-content-between align-items-center">
-                  <button type="button" class="btn btn-block btn-outline-secondary"><a class="nav-link py-0" href="https://suejstevens.github.io/GifTastic/" target="_blank">GifTastic</a></button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!--1st card-->
-          <div class="col-lg-4 col-md-6 col-xs-12">
-            <div class="card mb-4 shadow-sm">
-              <img class="img-fluid card-img-top portfolio-thumbs" src="assets/images/krystal-ng-596638-unsplash_348x275.jpg" alt="Crystal Collector">
-              <span class="caption">Photo by Krystal Ng on Unsplash.</span>
-              <div class="card-body">
-                <div class="d-flex justify-content-between align-items-center">
-                  <button type="button" class="btn btn-block btn-outline-secondary"><a class="nav-link py-0" href="https://suejstevens.github.io/unit-4-game-crystals/" target="_blank">Crystal Collector</a></button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!--1st card-->
-          <div class="col-lg-4 col-md-6 col-xs-12">
-              <div class="card mb-4 shadow-sm">
-                <img class="img-fluid card-img-top portfolio-thumbs" src="assets/images/jason-leung-705076-unsplash.jpg" alt="Hangman">
-                <span class="caption">Photo by Jason Leung on Unsplash.</span>
-                <div class="card-body">
-                  <div class="d-flex justify-content-between align-items-center">
-                    <button type="button" class="btn btn-block btn-outline-secondary"><a class="nav-link py-0" href="https://suejstevens.github.io/Word-Guess-Game_ObjectVersion/" target="_blank">Hangman</a></button>
-                    </div>
-                </div>
-              </div>
-            </div>
 
-          <!--2nd card-->
-          <div class="col-lg-4 col-md-6 col-xs-12">
-            <div class="card mb-4 shadow-sm">
-              <img class="img-fluid card-img-top portfolio-thumbs" src="assets/images/raynaldy-dachlan-45670-unsplash.jpg" alt="RPG Game">
-              <span class="caption">Photo by Raynaldy Dachlan on Unsplash.</span>
-              <div class="card-body">
-                <div class="d-flex justify-content-between align-items-center">
-                  <button type="button" class="btn btn-block btn-outline-secondary"><a class="nav-link py-0" href="https://suejstevens.github.io/unit-4-game-rpg/" target="_blank">RPG Game</a></button>
+  <div class="album py-5 bg-light">
+    <div class="container">
+      <div class="row">
+
+        {{#each portfolio}}
+        <!--1st card-->
+        <div class="col-lg-4 col-md-6 col-xs-12">
+          <div class="card mb-4 shadow-sm">
+            <div class="p-0 m-0 w-100 border-0 card-header d-flex justify-content-center align-items-top">
+              <h4 class="m-0 card-title bg-white portfolio-title">{{this.title}}</h4>
+            </div>
+            <div class="card-body p-0">
+              <img class="img-fluid card-img portfolio-thumbs" src={{this.src}} alt="{{this.title}} Card image">
+              <div class="p-0 m-0 card-img-overlay d-flex border border-white">
+                <div class="w-100 d-flex justify-content-center align-items-top caption-container">
+                  <span class="caption text-right w-100 pt-3 pr-5 mr-3">{{this.caption}}</span>
                 </div>
               </div>
             </div>
-          </div>
-
-          <!--3rd card-->
-          <div class="col-lg-4 col-md-6 col-xs-12">
-            <div class="card mb-4 shadow-sm">
-                <img class="img-fluid card-img-top portfolio-thumbs" src="assets/images/tracy-thomas-56810-unsplash.jpg" alt="Trivia Game">
-                <span class="caption">Photo by Tracy Thomas on Unsplash.</span>
-                <div class="card-body">
-                  <div class="d-flex justify-content-between align-items-center">
-                    <button type="button" class="btn btn-block btn-outline-secondary"><a class="nav-link py-0" href="https://suejstevens.github.io/TriviaGameAPI/" target="_blank">Trivia Game</a></button>
-                  </div>
-                </div>
+            <div class="card-footer">
+              <div class="row d-flex justify-content-center text-center">
+                <button class="btn btn-outline-secondary m-1">
+                  <a class="nav-link portfolio-link py-0" href={{this.githublink}} target="_blank">
+                    <i class="fab fa-github"></i>
+                    GitHub
+                    <i class="fas fa-code"></i>
+                  </a>
+                </button>
+                <button class="btn btn-outline-secondary m-1" data-toggle="tooltip" data-html="true" title="<em>{{this.tooltip}}</em>">
+                  <a class="nav-link portfolio-link portfolio-link py-0" href={{this.deploylink}}
+                    target="_blank">
+                    <i class="fas fa-desktop"></i>
+                    Deployed
+                    <i class="{{this.fontawesome}}"></i>
+                  </a>
+                </button>
               </div>
             </div>
-
-          <!--4th card-->
-          <div class="col-lg-4 col-md-6 col-xs-12">
-            <div class="card mb-4 shadow-sm">
-                <img class="img-fluid card-img-top portfolio-thumbs" src="assets/images/chris-liverani-552010-unsplash.jpg" alt="Rutgers Info Widget">
-                <span class="caption">Photo by Chris Liverani on Unsplash.</span>
-                <div class="card-body">
-                  <div class="d-flex justify-content-between align-items-center">
-                    <button type="button" class="btn btn-block btn-outline-secondary">Rutgers Info Widget</button>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-          <!--5th card-->
-          <div class="col-lg-4 col-md-6 col-xs-12">
-            <div class="card mb-4 shadow-sm">
-                <img class="img-fluid card-img-top portfolio-thumbs" src="assets/images/pro-church-media-441059-unsplash.jpg" alt="Rock Paper ScissorsCard image cap">
-                <span class="caption text-muted">Photo by Pro Church Media on Unsplash.</span>
-                <div class="card-body">
-                  <div class="d-flex justify-content-between align-items-center">
-                    <button type="button" class="btn btn-block btn-outline-secondary"><a class="nav-link py-0" href="rps/index.html">Rock Paper Scissors</a></button>
-                  </div>
-                </div>
-              </div>
-            </div>
-
           </div>
         </div>
+        {{/each}}
       </div>
-      
-    </main>
+    </div>
+  </div>
+
+</main>

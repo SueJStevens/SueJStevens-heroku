@@ -31,11 +31,33 @@
   /* formatting credit caption (credit to photographer for images) */
 .caption {
   font-family: 'IM Fell Great Primer', serif !important;
-  color: #445976 !important;
+  color: #d2dff1 !important;
   font-size: 0.75rem;
-  line-height: 1.0;}
+  line-height: 1.0;
+}
+
+.caption-container {
+  transform: rotate(90deg);
+}
 
 /*sizing the portfolio images container*/
 .portfolio-thumbs {
   height: 275px;
+}
+ .card-img-overlay {
+   pointer-events: none;
+ }
+
+ .portfolio-link:visited {
+  text-decoration: none;
+  color: #1F2936;
+}
+
+.portfolio-title {
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+.portfolio-link {
+  color: #1F2936!important;
+  font-weight: 300;
 }
