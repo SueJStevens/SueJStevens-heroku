@@ -81,11 +81,6 @@ a:visited {
     background-color: white;
 }
 
-footer {
-    font-size: .75rem;
-}
-
-
 /* Error 404 page style
 -------------------------------------------------- */
 #jumbotron_img {
@@ -172,12 +167,4 @@ footer {
 
 .navbar-light .navbar-nav .nav-link {
     color: rgba(31, 41, 54, 0.5);
-}
-
-.portfolio-title {
-    font-size: 1.25rem;
-    font-weight: 300;
-}
-.portfolio-link {
-    font-weight: 300;
 }
