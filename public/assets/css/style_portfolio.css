@@ -1,32 +1,4 @@
-/*Custom css needed to overwrite Bootstrap css, specific to the 'About Me' section of contact.html'*/
-:root {
-    --jumbotron-padding-y: 3rem;
-  }
-  
-  .jumbotron {
-    padding-top: var(--jumbotron-padding-y);
-    padding-bottom: var(--jumbotron-padding-y);
-    margin-bottom: 0;
-    background-color: #fff;
-  }
-  @media (min-width: 768px) {
-    .jumbotron {
-      padding-top: calc(var(--jumbotron-padding-y) * 2);
-      padding-bottom: calc(var(--jumbotron-padding-y) * 2);
-    }
-  }
-  
-  .jumbotron p:last-child {
-    margin-bottom: 0;
-  }
-  
-  .jumbotron-heading {
-    font-weight: 300;
-  }
-  
-  .jumbotron .container {
-    max-width: 40rem;
-  }
+
 
   /* formatting credit caption (credit to photographer for images) */
 .caption {
@@ -49,7 +21,8 @@
   transform-origin: left top;
 
   position: absolute;
-  top: 5px;
+  width: 275px; /*same as image container height*/
+  top: 23px;
   left: 100%;
   white-space: nowrap;    
 }
@@ -61,8 +34,6 @@
  .card-img-overlay {
    pointer-events: none;
  }
-
-
 
  .portfolio-link:visited {
   text-decoration: none;

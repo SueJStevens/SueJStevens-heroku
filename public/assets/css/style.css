@@ -8,59 +8,59 @@ font-family: 'Cedarville Cursive', cursive;
 font-family: 'Euphoria Script', cursive;
 font-family: 'Kaushan Script', cursive;
 
-Logo Color:  color: #445976;
+Logo Color:  color: #445976;  https://www.colorhexa.com/445976  
+             Vivid Blue color: #0B9FDB;  https://www.colorhexa.com/0b9fdb
+             Very Dark desaturated blue: #1F2936; https://www.colorhexa.com/1f2936
 */
 @import url('https://fonts.googleapis.com/css?family=Allan|Calligraffitti|IM+Fell+Great+Primer:400i');
 @import url('https://fonts.googleapis.com/css?family=Cedarville+Cursive|Euphoria+Script|Kaushan+Script');
 
-/*Custom classes used for testing purposes*/
+/*Custom classes used for testing purposes
 .red-border {
-    border-style: solid;
-    border-color: red;
+  border-style: solid;
+  border-color: red;
 }
 
 .blue-border {
-    border-style: solid;
-    border-color: blue;
+  border-style: solid;
+  border-color: blue;
+}
+*/
+
+/* Customize my name and title in the nav bar */
+#brand {
+  /*font-family: 'IM Fell Great Primer', serif !important;*/
+ color: #1F2936;
+ font-size: 1.3rem;
+ text-decoration: none;
+ background-color: inherit;
 }
 
-/*css shared across multiple html files, design elements notavailable in bootstrap*/
-
-/*Button Colors to match branding */
-
-a {
-    text-decoration: none;
-    color: #fff;
+/*Customize important elements on the page to match branding colors */
+body, .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+  /*font-family: 'IM Fell Great Primer', serif !important;*/
+  color: #1F2936;
 }
 
-a:visited {
-    text-decoration: none;
-    color: #fff;
+/* Custom for Contact Me page */
+.mycontact {
+  font-family: 'Kaushan Script', cursive;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  white-space: nowrap; /* Keeps the content on a single line */
 }
 
-.email {
-    text-decoration: none;
-    color: #0A8DC2;
-}
-
-.email:visited {
-    text-decoration: none;
-    color: #0A8DC2;
-}
-
-.btn-primary {
-    color: #fff;
-    background-color: #0b9fdb;
-    border-color: #0b9fdb;
-}
-
-.btn-primary:hover {
-    color: #fff;
-    background-color: #445976;
-    border-color: #445976;
-}
-
+/* Custom Animation */
 .typewriter h1 {
+  font-family: 'Kaushan Script', cursive;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  white-space: nowrap; /* Keeps the content on a single line */
+  animation: 
+    typing 20s steps(500, end),
+    blinking-cursor .5s step-end infinite;
+}
+
+/* Custom Animation */
+.typewriter h3 {
     font-family: 'Kaushan Script', cursive;
     overflow: hidden; /* Ensures the content is not revealed until the animation */
     white-space: nowrap; /* Keeps the content on a single line */
@@ -69,102 +69,202 @@ a:visited {
       blinking-cursor .5s step-end infinite;
   }
 
-  .container-top {
-    border-bottom: solid;
-    border-color: #1F2936;
-    background-color: white;
+/* Sticky footer styles  see http://getbootstrap.com/docs/4.1/examples/sticky-footer/
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  margin-bottom: 60px; /* Margin bottom by footer height */
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px; /* Set the fixed height of the footer here */
+  line-height: 60px; /* Vertically center the text there */
+  background-color: transparent;
+  font-size: .75rem;
+  border-top: solid;
+  border-color: #1F2936;
 }
 
-.container-bottom {
-    border-top: solid;
-    border-color: #1F2936;
-    background-color: white;
+/* customize Email address in footer */
+.email {
+  text-decoration: none;
+  color: #0B9FDB;
 }
+
+.email:visited {
+  text-decoration: none;
+  color: #0B9FDB;
+}
+
+/* Custom color border and background for top nav */
+.container-top {
+  border-bottom: solid;
+  border-color: #1F2936;
+  background-color: white;
+}
+
+/* Custom color and font for nav, no underline*/
+.nav,
+.nav-item,
+.nav-link,
+.navbar-light {
+    color: #1F2936;
+    font-size: 1.0rem;
+    text-decoration: none;
+    background-color: inherit;
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+   color: rgba(31, 41, 54, 0.9);
+}
+.navbar-light .navbar-nav .nav-link {
+   color: rgba(31, 41, 54, 0.5);
+}
+
+/*Customize button colors*/
+.btnlink {
+    color: #1F2936;
+    background-color: transparent;
+    background-image: none;
+    border-color: #1F2936;
+  }
+
+.btnlink:hover {
+    color: #eceff4;
+    background-color: #36465d;
+    background-image: none;
+    border-color: #36465d;
+  }
+
+.btn-outline-dark {
+  color: #1F2936;
+  background-color: transparent;
+  background-image: none;
+  border-color: #1F2936;
+}
+
+.btn-outline-dark:hover {
+  color: #eceff4;
+  background-color: #36465d;
+  background-image: none;
+  border-color: #36465d;
+}
+
+.btn-outline-dark:visited {
+  color: #1F2936;
+  background-color: transparent;
+  background-image: none;
+  border-color: #1F2936;
+  text-decoration: none;
+}
+/*
+.btn-primary {
+  color: #fff;
+  background-color: #0b9fdb;
+  border-color: #0b9fdb;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #445976;
+  border-color: #445976;
+}
+*/
+
+/* Styles for About Me Page */
+/*Custom css needed to overwrite Bootstrap css, specific to the 'About Me' section of index.html'*/
+#aboutImg {
+    width: 200px; /* Not setting height so that image will stay porportional to original*/
+}
+
+.img-responsive { 
+    width:100%;
+}
+
+/* Opacity of Images */
+.contact-img {
+    opacity:.4;
+    max-height: 480px;
+  }
 
 /* Error 404 page style
 -------------------------------------------------- */
 #jumbotron_img {
-    border-bottom: solid;
-    border-color: #1F2936;
-    background: #fff url("/assets/images/4-computer-cat.jpg") no-repeat center center fixed;
-    background-size: 100% 100%;
-    height: 100%;
-    opacity: 100%;
-    -webkit-background-size: 100% 100%;
-    -moz-background-size: 100% 100%;
-    -o-background-size: 100% 100%;
-    background-size: 100% 100%;
-  }
-
-  #jumbotron_img1 {
-    border-bottom: solid;
-    border-color: #1F2936;
-    background: #fff url("/assets/images/work-in-progress.jpg") no-repeat center center;
-    background-size: 100% 100%;
-    height: 100%;
-    opacity: 100%;
-    -webkit-background-size: 100% 100%;
-    -moz-background-size: 100% 100%;
-    -o-background-size: 100% 100%;
-    background-size: 100% 100%;
-  }
-
-  .errorpage {
-    font-family: 'Abel';
-  }
-
-/*setting custom height of nav bar for small & extra small screens by adjusting the logo size*/
-@media (min-width: 0px) {
-    #logo {
-    height: 60px;
-    width: 60px;
-    } 
+  border-bottom: solid;
+  border-color: #1F2936;
+  background: #fff url("/assets/images/4-computer-cat.jpg") no-repeat center center fixed;
+  background-size: 100% 100%;
+  height: 100%;
+  opacity: 100%;
+  -webkit-background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+  background-size: 100% 100%;
 }
 
+#jumbotron_img1 {
+  border-bottom: solid;
+  border-color: #1F2936;
+  background: #fff url("/assets/images/work-in-progress.jpg") no-repeat center center;
+  background-size: 100% 100%;
+  height: 100%;
+  opacity: 100%;
+  -webkit-background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+  background-size: 100% 100%;
+}
 
-/*setting custom height of nav bar for all screens larger than small by adjusting the logo size
-    Height of nav bar is by design and suppose to "cut off" top of logo
+.errorpage {
+  font-family: 'Abel';
+}
+
+/*
+  setting custom height of nav bar for small & extra small screens 
+  by adjusting the logo size
 */
-   @media (min-width: 768px) {
-    .navbar {
-        height:55px;
-    }
-    #logo {
+@media (min-width: 0px) {
+  #logo {
+  height: 60px;
+  width: 60px;
+  } 
+
+/* Custom for Contact Me page */
+.mycontact-cardtitle {
+  font-size: 1.4rem;
+}  
+.mycontact-cardsubtitle {
+  font-size: 1.15rem;
+}  
+
+}
+
+/*
+  Setting custom height of nav bar for all screens larger than small 
+  Adjusting the logo height and width
+  By design the navbar is suppose to "cut off" top of logo
+*/
+@media (min-width: 768px) {
+  .navbar {
+    height:55px;
+  }
+
+  #logo {
     height: 120px;
     width: 120px;
-    } 
-   }
+  } 
 
+  /* Custom for Contact Me page */
+  .mycontact-cardtitle {
+    font-size: 1.5rem;
+  }  
+  .mycontact-cardsubtitle {
+    font-size: 1.25rem;
+  } 
+  
 
-
- body, .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
-    /*font-family: 'IM Fell Great Primer', serif !important;*/
-    color: #1F2936;
-}
-
-
- #brand {
-     /*font-family: 'IM Fell Great Primer', serif !important;*/
-    color: #1F2936;
-    font-size: 1.3rem;
-    text-decoration: none;
-    background-color: inherit;
-}
-
- .nav,
- .nav-item,
- .nav-link,
- .navbar-light {
-     color: #1F2936;
-     font-size: 1.0rem;
-     text-decoration: none;
-     background-color: inherit;
- }
-
-.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
-    color: rgba(31, 41, 54, 0.9);
-}
-
-.navbar-light .navbar-nav .nav-link {
-    color: rgba(31, 41, 54, 0.5);
 }

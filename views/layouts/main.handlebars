@@ -14,26 +14,20 @@
   <!--Font Awesome-->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
     crossorigin="anonymous">
-  <!--Custom local stylesheet for common shared elements like header and footer-->
-  <link rel="stylesheet" type="text/css" media="screen" href="/assets/css/style.css" />
-  <!--Custom local stylesheet for common shared elements like header and footer-->
-  <link rel="stylesheet" type="text/css" media="screen" href="/assets/css/footer.css" />
-  <!--Custom local stylesheet for common shared elements like header and footer-->
   <link rel="stylesheet" type="text/css" media="screen" href="/assets/css/card_flip.css" />
   <link rel="stylesheet" type="text/css" media="screen" href="/assets/css/floating-labels.css" />
   <!--Custom local stylesheet for social icons-->
   <link rel="stylesheet" type="text/css" media="screen" href="/assets/social/style_amz.css" />
   <!--Custom local stylesheet for elements unique to this page-->
-  <link rel="stylesheet" type="text/css" media="screen" href="/assets/css/style_aboutme.css" />
-  <link rel="stylesheet" type="text/css" media="screen" href="/assets/css/style_contact.css" />
   <link rel="stylesheet" type="text/css" media="screen" href="/assets/css/style_portfolio.css" />
+  <!--Custom local stylesheet for common shared elements like header and footer-->
+  <link rel="stylesheet" type="text/css" media="screen" href="/assets/css/style.css" />
 
   <!-- JavaScript
     ================================================== -->
   <!-- Placed at the beginning of the document so jquery components work properly -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script>
-  <script src="/assets/js/footer.js" type="text/javascript"></script>
   <script src="/assets/js/card_flip.js" type="text/javascript"></script>
 
 </head>
@@ -41,14 +35,23 @@
 <body>
 
   <header>
-
+  
   <!--Nav Here but not for login page-->
   {{> navs/topnav-block}}
 
   </header>
+  <!-- This element exists as part of the header
+       it's purpose is to add top and bottom margins 
+       to give spacing to the nav bar and logo -->
+  <div class="container-fluid mb-1 mt-1">&nbsp;</div>
 
 		{{{ body }}}
 
+
+<!-- This element exists as part of the footer
+      it's purpose is to add top and bottom margins 
+      to give spacing to the area just above the footer -->
+    <div class="container-fluid mb-1 mt-1">&nbsp;</div> 
 
     <!--Footer-->
     {{> navs/footer-block}}
