@@ -1,0 +1,55 @@
+Assignment 1: Building a Wireframe / That Portfolio Though
+Assignment 2: Responsiveness Assignment
+Assignment 3: Javascript Assignment
+     
+https://github.com/SueJStevens/Psychic-Game
+https://github.com/SueJStevens/Word-Guess-Game
+https://github.com/SueJStevens/Word-Guess-Game_ObjectVersion
+https://suejstevens.github.io/Psychic-Game/
+https://suejstevens.github.io/Word-Guess-Game/
+https://suejstevens.github.io/Word-Guess-Game_ObjectVersion/
+
+Assignment 4: jQuery Assignment
+ https://github.com/SueJStevens/unit-4-game-crystals
+ https://github.com/SueJStevens/unit-4-game-rpg
+ https://suejstevens.github.io/
+ https://suejstevens.github.io/unit-4-game-crystals/
+ https://suejstevens.github.io/unit-4-game-rpg/
+
+Assignment 5: JavaScript Assignment 2
+ https://github.com/SueJStevens/TriviaGameAPI
+ https://suejstevens.github.io/
+ https://suejstevens.github.io/TriviaGameAPI/
+
+Assignment 6: Giftastic
+ https://github.com/SueJStevens/GifTastic
+ https://suejstevens.github.io/
+ https://suejstevens.github.io/GifTastic/
+
+Assignment 7:  Train Scheduler (Basic Recommended) / Rock Paper Scissors (Challenge)
+ https://github.com/SueJStevens/TrainsDoNotRunOnTime
+ https://github.com/SueJStevens/TrainTime
+ https://suejstevens.github.io/
+ https://suejstevens.github.io/TrainTime/
+
+Assignment 8:  LIRI Bot
+ https://github.com/SueJStevens/timothy
+
+Assignment 9: Advanced JavaScript Assignment:  Constructor Word Guess
+ https://github.com/SueJStevens/constructor_word_guess
+
+Assignment 10: Node.js & MySQL
+ https://github.com/SueJStevens/bambizon_v1
+
+Assignment 11: Friend Finder - Node and Express Servers
+ https://github.com/SueJStevens/FriendFinder
+ https://mighty-journey-94523.herokuapp.com/
+
+Assignment 12:  Node Express Handlebars
+ https://blooming-depths-36189.herokuapp.com/
+ https://github.com/SueJStevens/bakeoff
+ https://stackoverflow.com/questions/53357416/getting-specific-number-of-days-with-moment-js-node-npm-and-handlbars
+
+Assignment 13: Burger 2: The Sequel
+
+Assignment 14: All the News That's Fit to Scrape
