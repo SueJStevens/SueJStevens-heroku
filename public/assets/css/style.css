@@ -235,11 +235,14 @@ body {
 
 /* Custom for Contact Me page */
 .mycontact-cardtitle {
-  font-size: 1.4rem;
+  font-size: 1.1rem;
 }  
 .mycontact-cardsubtitle {
-  font-size: 1.15rem;
+  font-size: 1.0rem;
 }  
+small{
+  font-size: 85%;
+}
 
 }
 
