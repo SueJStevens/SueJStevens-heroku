@@ -265,6 +265,9 @@ body {
   .mycontact-cardsubtitle {
     font-size: 1.25rem;
   } 
+  small{
+    font-size: 100%;
+  }
   
 
 }
