@@ -1,7 +1,24 @@
 var db = require("../models");
 
+    // using SendGrid's v3 Node.js Library
+// https://github.com/sendgrid/sendgrid-nodejs
+const sgMail = require('@sendgrid/mail');
+sgMail.setApiKey(process.env.SENDGRID_API_KEY);
+const msg = {
+  to: 'StevensStock@gmail.com',
+  from: 'test@example.com',
+  subject: 'Sending with SendGrid is Fun',
+  text: 'and easy to do anywhere, even with Node.js',
+  html: '<strong>and easy to do anywhere, even with Node.js</strong>',
+};
+
 module.exports = function(app) {
-  
+
+  app.post("/contact", function(req, res) {
+    //send mail
+    sgMail.send(msg);
+  });
+
   app.get("/contact", function(req, res) {
     res.render("contact");
   });
@@ -13,6 +30,33 @@ module.exports = function(app) {
   app.get("/portfolio", function(req, res) {
     res.render("portfolio", {
         portfolio: [
+          {
+            title:"All the News That's Fit to Scrape",
+            src: "/assets/images/jon-tyson-195064-unsplash.jpg",
+            caption: "Photo by Jon Tyson on Unsplash",
+            githublink: "https://github.com/SueJStevens/news-combine-harvester",
+            deploylink: "https://news-combine-harvester.herokuapp.com/",
+            tooltip: "Convert bad news to good news.",
+            fontawesome: "fas fa-tractor"
+          },          
+          {
+            title:"Bakeoff",
+            src: "/assets/images/brooke-lark-203839-unsplash.jpg",
+            caption: "Photo by Brooke Lark on Unsplash",
+            githublink: "https://github.com/SueJStevens/bakeoff",
+            deploylink: "https://blooming-depths-36189.herokuapp.com/",
+            tooltip: "Let them eat cake.",
+            fontawesome: "fas fa-birthday-cake"
+          },          
+          {
+            title:"It's a Match!",
+            src: "/assets/images/annie-spratt-365624-unsplash.jpg",
+            caption: "Photo by Annie Spratt on Unsplash",
+            githublink: "https://github.com/SueJStevens/FriendFinder",
+            deploylink: "https://mighty-journey-94523.herokuapp.com/",
+            tooltip: "Find your best friend",
+            fontawesome: "fas fa-user-friends"
+          },          
           {
             title:"Train Time Scheduler",
             src: "/assets/images/drew-farwell-481107-unsplash.jpg",
