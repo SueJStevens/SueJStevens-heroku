@@ -61,6 +61,16 @@ module.exports = function(app) {
             fontawesome: "fas fa-user-friends"
           },          
           {
+            title:"BambiZon Command Line Shopping",
+            src: "/assets/images/fancycrave-520419-unsplash.jpg",
+            caption: "Photo by Fancycrave on Unsplash",
+            githublink: "https://github.com/SueJStevens/bambizon_v1",
+            deployed: false,
+            deploylink: "",
+            tooltip: "",
+            fontawesome: ""
+          },
+          {
             title:"Guess The Word Again - Command Line",
             src: "/assets/images/irvan-smith-563894-unsplash.jpg",
             caption: "Photo by Irvan Smith on Unsplash",
