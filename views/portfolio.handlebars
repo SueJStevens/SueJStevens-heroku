@@ -42,6 +42,8 @@
                     <i class="fas fa-code"></i>
                   </a>
                 </button>
+
+                {{#if this.deployed}}
                 <button class="btn btn-outline-secondary m-1" data-toggle="tooltip" data-html="true" title="<em>{{this.tooltip}}</em>">
                   <a class="nav-link portfolio-link portfolio-link py-0" href={{this.deploylink}}
                     target="_blank">
@@ -50,6 +52,8 @@
                     <i class="{{this.fontawesome}}"></i>
                   </a>
                 </button>
+                {{/if}}   
+
               </div>
             </div>
           </div>

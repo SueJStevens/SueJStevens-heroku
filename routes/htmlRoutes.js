@@ -35,6 +35,7 @@ module.exports = function(app) {
             src: "/assets/images/jon-tyson-195064-unsplash.jpg",
             caption: "Photo by Jon Tyson on Unsplash",
             githublink: "https://github.com/SueJStevens/news-combine-harvester",
+            deployed: true,
             deploylink: "https://news-combine-harvester.herokuapp.com/",
             tooltip: "Convert bad news to good news.",
             fontawesome: "fas fa-tractor"
@@ -44,6 +45,7 @@ module.exports = function(app) {
             src: "/assets/images/brooke-lark-203839-unsplash.jpg",
             caption: "Photo by Brooke Lark on Unsplash",
             githublink: "https://github.com/SueJStevens/bakeoff",
+            deployed: true,
             deploylink: "https://blooming-depths-36189.herokuapp.com/",
             tooltip: "Let them eat cake.",
             fontawesome: "fas fa-birthday-cake"
@@ -53,6 +55,7 @@ module.exports = function(app) {
             src: "/assets/images/annie-spratt-365624-unsplash.jpg",
             caption: "Photo by Annie Spratt on Unsplash",
             githublink: "https://github.com/SueJStevens/FriendFinder",
+            deployed: true,
             deploylink: "https://mighty-journey-94523.herokuapp.com/",
             tooltip: "Find your best friend",
             fontawesome: "fas fa-user-friends"
@@ -62,6 +65,7 @@ module.exports = function(app) {
             src: "/assets/images/markus-spiske-771011-unsplash.jpg",
             caption: "Photo by Markus Spiske on Unsplash.",
             githublink: "https://github.com/SueJStevens/timothy",
+            deployed: false,
             deploylink: "",
             tooltip: "",
             fontawesome: ""
@@ -71,6 +75,7 @@ module.exports = function(app) {
             src: "/assets/images/drew-farwell-481107-unsplash.jpg",
             caption: "Photo by Drew Farwell on Unsplash.",
             githublink: "https://github.com/SueJStevens/TrainTime/",
+            deployed: true,
             deploylink: "https://suejstevens.github.io/TrainTime/",
             tooltip: "Listen to the whistle of the evening train",
             fontawesome: "fas fa-subway"
@@ -80,6 +85,7 @@ module.exports = function(app) {
             src: "/assets/images/joshua-rawson-harris-1066897-unsplash.jpg",
             caption: "Photo by Joshua Rawson-Harris on Unsplash.",
             githublink: "https://github.com/SueJStevens/Giftastic/",
+            deployed: true,
             deploylink: "https://suejstevens.github.io/GifTastic/",
             tooltip: "What a long, strange trip it's been...",
             fontawesome: "far fa-grin-tears"
@@ -89,6 +95,7 @@ module.exports = function(app) {
             src: "/assets/images/krystal-ng-596638-unsplash_348x275.jpg",
             caption: "Photo by Krystal Ng on Unsplash.",
             githublink: "https://github.com/SueJStevens/unit-4-game-crystals/",
+            deployed: true,
             deploylink: "https://suejstevens.github.io/unit-4-game-crystals/",
             tooltip: "Panes of crystal ice sparkle like waterfalls",
             fontawesome: "fas fa-gem"
@@ -98,6 +105,7 @@ module.exports = function(app) {
             src: "/assets/images/jason-leung-705076-unsplash.jpg",
             caption: "Photo by Jason Leung on Unsplash.",
             githublink: "https://github.com/SueJStevens/Word-Guess-Game_ObjectVersion/",
+            deployed: true,
             deploylink: "https://suejstevens.github.io/Word-Guess-Game_ObjectVersion/",
             tooltip: "Jack Straw from Wichita...",
             fontawesome: "fas fa-skull-crossbones"
@@ -107,6 +115,7 @@ module.exports = function(app) {
             src: "/assets/images/raynaldy-dachlan-45670-unsplash.jpg",
             caption: "Photo by Raynaldy Dachlan on Unsplash.",
             githublink: "https://github.com/SueJStevens/unit-4-game-rpg/",
+            deployed: true,
             deploylink: "https://suejstevens.github.io/unit-4-game-rpg/",
             tooltip: "I bought you a paddle for your paper canoe.",
             fontawesome: "fas fa-hand-scissors"
@@ -116,6 +125,7 @@ module.exports = function(app) {
             src: "/assets/images/tracy-thomas-56810-unsplash.jpg",
             caption: "Photo by Tracy Thomas on Unsplash.",
             githublink: "https://github.com/SueJStevens/TriviaGameAPI/",
+            deployed: true,
             deploylink: "https://suejstevens.github.io/TriviaGameAPI/",
             tooltip: "If my words did glow with the gold of sunshine...",
             fontawesome: "fas fa-dice"
@@ -124,6 +134,7 @@ module.exports = function(app) {
             title: "Rutgers Info Widget",
             src: "/assets/images/chris-liverani-552010-unsplash.jpg",
             caption: "Photo by Chris Liverani on Unsplash.",
+            deployed: false,
             githublink: "",
             deploylink: "",
             tooltip: "I am lost...",
@@ -133,6 +144,7 @@ module.exports = function(app) {
             title: "Rock Paper Scissors",
             src: "/assets/images/pro-church-media-441059-unsplash.jpg",
             caption: "Photo by Pro Church Media on Unsplash.",
+            deployed: false,
             githublink: "",
             deploylink: "",
             tooltip: "I am lost...",
