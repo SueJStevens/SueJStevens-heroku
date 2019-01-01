@@ -53,3 +53,7 @@ Assignment 12:  Node Express Handlebars
 Assignment 13: Burger 2: The Sequel
 
 Assignment 14: All the News That's Fit to Scrape
+ https://github.com/SueJStevens/news-combine-harvester
+ https://news-combine-harvester.herokuapp.com/
+
+

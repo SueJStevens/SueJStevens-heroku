@@ -58,6 +58,15 @@ module.exports = function(app) {
             fontawesome: "fas fa-user-friends"
           },          
           {
+            title:"Timothy - A Nodejs Command Line Bot",
+            src: "/assets/images/markus-spiske-771011-unsplash.jpg",
+            caption: "Photo by Markus Spiske on Unsplash.",
+            githublink: "https://github.com/SueJStevens/timothy",
+            deploylink: "",
+            tooltip: "",
+            fontawesome: ""
+          },
+          {
             title:"Train Time Scheduler",
             src: "/assets/images/drew-farwell-481107-unsplash.jpg",
             caption: "Photo by Drew Farwell on Unsplash.",
