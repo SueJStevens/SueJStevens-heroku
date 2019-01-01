@@ -61,6 +61,16 @@ module.exports = function(app) {
             fontawesome: "fas fa-user-friends"
           },          
           {
+            title:"Guess The Word Again - Command Line",
+            src: "/assets/images/irvan-smith-563894-unsplash.jpg",
+            caption: "Photo by Irvan Smith on Unsplash",
+            githublink: "https://github.com/SueJStevens/constructor_word_guess",
+            deployed: false,
+            deploylink: "",
+            tooltip: "",
+            fontawesome: ""
+          },
+          {
             title:"Timothy - A Nodejs Command Line Bot",
             src: "/assets/images/markus-spiske-771011-unsplash.jpg",
             caption: "Photo by Markus Spiske on Unsplash.",
