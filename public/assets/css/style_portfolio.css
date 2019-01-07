@@ -22,7 +22,7 @@
 
   position: absolute;
   width: 275px; /*same as image container height*/
-  top: 23px;
+  top: -10px;
   left: 100%;
   white-space: nowrap;    
 }
