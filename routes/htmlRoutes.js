@@ -58,7 +58,7 @@ module.exports = function(app) {
             title:"It's a Match!",
             src: "/assets/images/annie-spratt-365624-unsplash.jpg",
             caption: "Photo by Annie Spratt on Unsplash",
-            description: "Full Stack Application using Node and Express Servers to identify compatability based on answers on a 10-question quiz; deployed via Heroku",
+            description: "Full Stack Application using Node and Express Servers to identify compatability based on quiz answers; deployed via Heroku",
             tags: ["expressjs","nodejs","body-parser","path","javascript","jquery","heroku"],
             githublink: "https://github.com/SueJStevens/FriendFinder",
             deployed: true,
