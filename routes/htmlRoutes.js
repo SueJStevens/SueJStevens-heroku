@@ -31,6 +31,18 @@ module.exports = function(app) {
     res.render("portfolio", {
         portfolio: [
           {
+            title:"Dog Gone It!",
+            src: "/assets/images/alexis-chloe-534920-unsplash.jpg",
+            caption: "Photo by Alexis Chloe on Unsplash",
+            description: "Memory Game to Demo React Components, State, and Response to User Events.",
+            tags: ["reactjs","bootstrap4","javascript","nodejs", "html", "css", "heroku"],
+            githublink: "https://github.com/SueJStevens/clicky-game",
+            deployed: true,
+            deploylink: "https://stormy-cliffs-31355.herokuapp.com/",
+            tooltip: "My dog he turned to me and he said...",
+            fontawesome: "fal fa-dog-leashed"
+          },          
+          {
             title:"All the News That's Fit to Scrape",
             src: "/assets/images/jon-tyson-195064-unsplash.jpg",
             caption: "Photo by Jon Tyson on Unsplash",

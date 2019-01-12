@@ -1,0 +1,7 @@
+ToDo:  Screenshots/gifs of app or code added to readme files.
+ToDo:  Add more projects to LinkedIn profile.  Need at least 2-3.
+ToDo:  CodePen 
+ToDo:  Mobile-friendly layout?  I believe this is met.
+
+
+Note:  I have thoughtfully considered whether to retain or remove experience beyond 10 years in my professional materials.  I believe that loyalty and longetivy are important soft skills that are demonstrated by leaving enough work history to show that I usually stay with my employers for 10 or more years.  I have removed all prior experience that has nothing to do with programming or application development.  I recognize the potential for age discrimination during the hiring process, but I suspect most recruiters who view my profile will also be able to guess from my profile photo that I'm not a spring chicken.  I have considered whether or not to use the same profile photo everywhere and I'm opting for offering variety over the stale photo provided by my current employer which I use on LinkedIn per our company's social media policy.  
