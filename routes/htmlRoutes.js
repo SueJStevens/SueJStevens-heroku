@@ -31,6 +31,18 @@ module.exports = function(app) {
     res.render("portfolio", {
         portfolio: [
           {
+            title:"Google API Book Search!",
+            src: "/assets/images/ugur-akdemir-664735-unsplash.jpg",
+            caption: "Photo by Ugur Akdemir on Unsplash",
+            description: "API Search App to Demo React and MongoDB",
+            tags: ["reactjs","mongodb","bootstrap4","javascript","nodejs", "html", "css", "heroku"],
+            githublink: "https://github.com/SueJStevens/searchgooglebooks",
+            deployed: true,
+            deploylink: "https://secret-earth-95362.herokuapp.com/",
+            tooltip: "So many books, so little time....",
+            fontawesome: "fal fa-books"
+          },          
+          {
             title:"Dog Gone It!",
             src: "/assets/images/alexis-chloe-534920-unsplash.jpg",
             caption: "Photo by Alexis Chloe on Unsplash",
